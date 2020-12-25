@@ -1,6 +1,6 @@
 var options = {
   chart: {
-    type: 'line',
+    type: 'radar',
   },
   series: [
     {
