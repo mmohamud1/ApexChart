@@ -1,8 +1,7 @@
 var options = {
   chart: {
-    type: 'line',
+    type: 'bar',
     width: '50%',
-
   },
   series: [
     {
@@ -12,6 +11,9 @@ var options = {
   ],
   xaxis: {
     categories: [2000, 2001, 2002, 1994, 1995, 1996, 1997, 1998, 1999],
+  },
+  fill: {
+    colors: ['#f85'],
   },
 };
 
