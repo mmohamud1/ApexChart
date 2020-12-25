@@ -13,8 +13,9 @@ var options = {
     categories: [2000, 2001, 2002, 1994, 1995, 1996, 1997, 1998, 1999],
   },
   fill: {
-    colors: ['#f85'],
+    colors: ['#F44336', '#E91E63', '#9C27B0'],
   },
+
 };
 
 var chart = new ApexCharts(document.querySelector('#chart'), options);
