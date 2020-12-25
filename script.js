@@ -1,6 +1,8 @@
 var options = {
   chart: {
     type: 'line',
+    width: '50%',
+
   },
   series: [
     {
